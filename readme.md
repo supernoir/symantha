@@ -35,21 +35,22 @@
 
 
 ### Example
-    helloworld.symt
-		----
+####  helloworld.symt
 
 		intent: "Saying hello to the world"
+		special: _ becomes " "
 
 		----
 
 		define greeting to be "Hello"
-		define list world with ("mundo","welt","world")
+		define list world with ("Mundo","Welt","World")
     
 		make greeter do
-		  display greeting plus _world.0 plus "!"
+		  display greeting plus _ and world(0) plus "!"
 		end
 
-		---
+
+#### Console
 
 		STDOUT: Hello Mundo!
 
