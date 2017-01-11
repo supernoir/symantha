@@ -1,6 +1,5 @@
 # Symantha
 ## A super simple semantic high level language for rockstar rookies
-### Written in Ecmascript 2015
 
 - IO
   - **display**
