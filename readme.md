@@ -33,3 +33,23 @@
   - **incase (condition) do {function} | otherwise (condition) do {function}**
     - If/else statement
 
+
+### Example
+    helloworld.symt
+		----
+
+		intent: "Saying hello to the world"
+
+		----
+
+		define greeting to be "Hello"
+		define list world with ("mundo","welt","world")
+    
+		make greeter do
+		  display greeting plus _world.0 plus "!"
+		end
+
+		---
+
+		STDOUT: Hello Mundo!
+
